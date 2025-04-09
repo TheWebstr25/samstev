@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="The Webstr">
+        <meta name=" descripton" content="Affordable and trustworthy photography services by Samstev Lensman">
+        <meta name="keyword" content="Photography, pictures, events, video coverage, nature photography, documentary, Corporate shots, Weddings and engagements, photo editing, affordable sessions"> 
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <link rel="stylesheet" href="samstevoriginal.css">
+        <link rel="icon" type="image/x-icon" href="photos/fav.co.jpg">
+        <title>Samstev Lensman - Capturing moments, capturing timeless stories</title>
+    </head>
+    <body>
+        <div class="body-about">
+            <header>
+                <div class="major-container">
+                    <div class="flex1">
+                        <img src="photos/logo.png" alt="Samstev Lensman Logo" width="15%">
+                        <div class="hamburger" onclick="togglemenu">&#9776</div>
+                        <nav>
+                            <ul>
+                                <li class><a href="samstevoriginal.html">Home</a></li>
+                                <li><a href="about.html">About Me</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="services.html">My Services</a></li>
+                                <li id="contact"><a href="contact.html">Contact Me</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <section class="galleryx">
+                <div class="major-container">
+                    <div class="galleryxx">
+                        <div class="vbox"> 
+                            <img src="photos/IMG_6139.jpg">
+                            <img src="photos/IMG_6161.jpg">
+                            <div class="h3nbtn1">
+                                <h3>Weddings</h3>
+                                <button class="btn-grid"><a href="weddings.html">View</a></button>
+                            </div>
+                        </div>
+                        <div class="vbox">
+                            <img src="photos/IMG_1494 copy.jpg">
+                            <div class="h3nbtn2">
+                                <h3>Birthdays</h3>
+                                <button class="btn-grid"><a href="birthdays.html">View</a></button>
+                            </div>
+                        </div>
+                        <div class="vbox">
+                            <img src="photos/left grid2.jpg">
+                            <div class="h3nbtn3">
+                                <h3>Corporate shots</h3>
+                                <button class="btn-grid"><a href="corporate.html">View</a></button>
+                            </div>
+                        </div>
+                        <div class="vbox">
+                            <img src="photos/IMG_8210 (1) (1).jpg">
+                            <div class="h3nbtn4">
+                                <h3>Documentary</h3>
+                                <button class="btn-grid"><a href="documentary.html">View</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="p">
+                <p>Samstev Lensman | All rights reserved &copy; 2025</p>
+            </div>
+            <script>
+                document.addEventListener("DOMContentLoaded" , function() {
+                    const menu = document.getElementsByTagName("nav")[0];
+                    const hamburger = document.querySelector(".hamburger");
+                    hamburger.addEventListener("click", function () {
+                        menu.classList.toggle("active");
+                    });
+                });
+            </script>
+    </body>
+</html>
+            
